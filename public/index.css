@@ -1,0 +1,54 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titoloHome {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.containerLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.containerLink a{
+    text-decoration: none;
+    background-color: #202020;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.containerLink a:hover{
+    background-color: #404040;
+    scale: 1.1;
+}
+
+.containerDescrizione{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    color: white;
+}
