@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #101010;
+    background-color: #101010 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,4 +51,32 @@ body {
     height: 200px;
     width: 500px;
     color: white;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: #202020;
+    height: 500px;
+    border-radius: 10px;
+   align-items: start;
+}
+
+#containerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+#card{
+    margin: 20px;
+    
+}
+
+.erroreArrayVuoto{
+    color: white;
+    margin-top: 50px;
 }
