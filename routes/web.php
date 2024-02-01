@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\MailController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -27,6 +28,10 @@ Route::get('/articoli/{id}', [ArticleController::class, 'show'])-> name('articol
 
 // sitodiluca/chiSono
 route::get('/chiSono',[PageController::class, "chiSono"])->name('chiSono');
+
+// sitodiluca/chiSono metodo post
+
+route::post("/'chiSono'/invio",[MailController::class, "sendContact"])->name('contact.send');
 
 // sitodiluca/articoli/{category}
 
